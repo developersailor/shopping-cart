@@ -3,9 +3,9 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from '../store/cartSlice';
 
 const products = [
-  { id: 1, name: "Ürün 1", price: 50.00 , img:" /assets/muscle.jpg"},
-  { id: 2, name: "Ürün 2", price: 30.00 , img:"/assets/valeria.jpg"},
-  { id: 3, name: "Ürün 3", price: 20.00 , img:"/assets/zulian.jpg"}
+  { id: 1, name: "Ürün 1", price: 25.00 , img:"/assets/cicek.jpg"},
+  { id: 2, name: "Ürün 2", price: 50.00 , img:"/assets/coffee.jpg"},
+  { id: 3, name: "Ürün 3", price: 100.00 , img:"/assets/parfum.jpg"}
 ];
 
 const ProductList: React.FC = () => {
